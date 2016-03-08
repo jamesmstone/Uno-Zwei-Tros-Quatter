@@ -1,0 +1,39 @@
+url: https:blog.jamesst.one
+name: James Stone
+title: James' Blog
+description: A Personal Blog by James Stone.
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+production_url:  https://blog.jamesst.one
+rss_path:        rss.xml
+atom_path:       atom.xml
+
+github_repository_url: https://github.com/jamesmstone/blog
+
+disqus_short_name: jamesstoneblog
+analytics_google_tracking_id: UA-43095324-4
+
+
+# excerpt_separator: <!--more-->
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      menu: none
+      author: James Stone
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      author: James Stone

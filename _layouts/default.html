@@ -1,0 +1,64 @@
+{% include james_head.html %}
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="container">
+    <header>
+        <h1><a {% if page.title == "Blog" %} class="active" {% endif %}href="/">{{ site.title }}</a></h1>
+    </header>
+    {% include navigation.html %}
+    <div class="page-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.title != "Blog" %}
+        <p class="subtitle">
+            {% if page.date %}
+                {{ page.date | date_to_long_string }}
+            {% endif %}
+
+            {% if page.authors %}
+            by
+                {% for author in page.authors %}
+                    {% if author.orcid %}<a href="{{author.orcid}}">{{ author.given-names }} {{ author.surname }}</a>
+                    {% else %}<a href="mailto:{{ author.email }}">{{ author.given-names }} {{ author.surname }}</a>
+                    {% endif %}
+
+                    {% if forloop.rindex0 > 1 %},
+                    {% elsif forloop.rindex0 == 1 %} and
+                    {% endif %}
+                {% endfor %}
+            {% elsif page.author %} {{page.author}}
+            {% endif %}
+        </p>
+        {% endif %}
+    </div>
+    <div class="content">
+        <div class="row">
+            <a id="edit_page" href="{{site.github_repository_url}}/edit/master/{{page.path}}"><i class="fa fa-pencil"> Edit</i></a>
+        </div>
+        <div class="row">
+            <div class="twelve column">
+
+                {{ content }}
+
+                {% if page.id %}
+                <hr>
+                {% include comments.html %}
+                {% endif %}
+                <hr>
+                {% include footer.html %}
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- /container -->
+
+{% include analytics.html %}
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
