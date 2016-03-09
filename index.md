@@ -4,9 +4,9 @@ title: "Blog"
 menu: main
 ---
 
-## Welcome to James Stone's Personal Blog
+## Welcome to Uno Zwei Tros Quatter
 
-This site is still heavily under development... but it's getting closer
+This site is still heavily under development...
 
 {% assign loopindex = 0 %}
 {% for page in site.posts %}  

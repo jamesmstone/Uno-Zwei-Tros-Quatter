@@ -1,7 +1,7 @@
-url: https:blog.jamesst.one
+url: https://Uno-Zwei-Tros-Quatter.jamesst.one
 name: James Stone
-title: James' Blog
-description: A Personal Blog by James Stone.
+title: Uno Zwei Tros Quatter
+description: A journey through Switzerland
 exclude:
   - README.md
   - Rakefile
@@ -11,13 +11,13 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
-production_url:  https://blog.jamesst.one
+production_url:  https://Uno-Zwei-Tros-Quatter.jamesst.one
 rss_path:        rss.xml
 atom_path:       atom.xml
 
-github_repository_url: https://github.com/jamesmstone/blog
+github_repository_url: https://github.com/jamesmstone/Uno-Zwei-Tros-Quatter
 
-disqus_short_name: jamesstoneblog
+disqus_short_name: Uno-Zwei-Tros-Quatter
 analytics_google_tracking_id: UA-43095324-4
 
 
