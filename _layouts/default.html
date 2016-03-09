@@ -3,62 +3,102 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<div class="container">
-    <header>
-        <h1><a {% if page.title == "Blog" %} class="active" {% endif %}href="/">{{ site.title }}</a></h1>
-    </header>
-    {% include navigation.html %}
-    <div class="page-header">
-        <h1>{{ page.title }}</h1>
-        {% if page.title != "Blog" %}
-        <p class="subtitle">
-            {% if page.date %}
-                {{ page.date | date_to_long_string }}
-            {% endif %}
 
-            {% if page.authors %}
-            by
+<div class="banner-article"><!--full width slider-->
+    <div class="slider-article"><!--help with position-->
+        <div class="init-slider"><!--class for init-->
+            <div><!--init slide-->
+                <div class="slide"><!--containe all info-->
+                    <img src="img/cover_image/1.jpg" alt="">
+
+                    <div class="img-about"><!--slide information-->
+                        <span class="head">Vikings</span><!--category-->
+                        <span class="main-slogan">{{ page.title }}</span><!--title-->
+                        <span class="sub-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti debitis eum aperiam. Voluptatem</span>
+                        <!--sub-title-->
+                    </div><!--end img-about-->
+                </div><!--end slide-->
+            </div><!--end init slide-->
+        </div><!--init-slider-->
+    </div><!--cover_image-->
+</div><!--banner-article-->
+
+<!--article-->
+<section class="article-page"><!--overlay for one large article,containe new styles-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 remove-padding">
+                <!--this column contain info about author-->
+                {% if page.authors %}
+
                 {% for author in page.authors %}
-                    {% if author.orcid %}<a href="{{author.orcid}}">{{ author.given-names }} {{ author.surname }}</a>
-                    {% else %}<a href="mailto:{{ author.email }}">{{ author.given-names }} {{ author.surname }}</a>
-                    {% endif %}
 
-                    {% if forloop.rindex0 > 1 %},
-                    {% elsif forloop.rindex0 == 1 %} and
-                    {% endif %}
+                <div class="author-overlay"><!--hold on author information-->
+                    <span class="author">author</span><!--title-->
+                    <img src="img/face.jpg" alt=""><!--avatar-->
+                    <span class="name">
+                        {% if author.orcid %}<a href="{{author.orcid}}">{{ author.given-names }} {{ author.surname }}</a>
+                        {% else %}<a href="mailto:{{ author.email }}">{{ author.given-names }} {{ author.surname }}</a>
+                        {% endif %}
+                    </span><!--name author-->
+                </div><!--end author overlay-->
+
                 {% endfor %}
-            {% elsif page.author %} {{page.author}}
-            {% endif %}
-        </p>
-        {% endif %}
-    </div>
-    <div class="content">
-        <div class="row">
-            <a id="edit_page" href="{{site.github_repository_url}}/edit/master/{{page.path}}"><i class="fa fa-pencil"> Edit</i></a>
-        </div>
-        <div class="row">
-            <div class="twelve column">
+                {% elsif page.author %} {{page.author}}
 
-                {{ content }}
-
-                {% if page.id %}
-                <hr>
-                {% include comments.html %}
                 {% endif %}
-                <hr>
-                {% include footer.html %}
-            </div>
-        </div>
 
+                <div class="quotes hidden-xs hidden-sm"><!--contain quotes of author-->
+                    <div class="quote"><!--standart quote-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id earum asperiores recusandae
+                            soluta laudantium ipsa cumque tempora minima ab a. Iusto voluptatem modi voluptate nemo cum,
+                            ex veniam atque dolore.</p>
+                    </div><!--quote-->
+                    <div class="quote-small"><!--quote with small font-size-->
+                        <p>Such ships are perfect for shallow coastal waters and rivers. Feature longshipov - is the
+                            absence of the stern, so that the ship.</p>
+                    </div><!--end quote-small-->
+                    <div class="quote-with-name"><!--quote with name,has title-->
+                        <span>Lorem ipsum dolor sit amet</span><!--title-->
+                        <p>Such ships are perfect for shallow coastal waters and rivers. Feature longshipov - is the
+                            absence of the stern, so that the ship had two nose, allowing to change direction without
+                            turning the ship. And on such a ship-shifter it was convenient to go to sea, full of hidden
+                            icebergs. Paddles were established almost the entire.</p>
+                    </div><!--end quote-with name-->
+                    <div class="quote bottom-quote"><!--standart quote,but has large margin top-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id earum asperiores recusandae
+                            soluta laudantium ipsa cumque tempora minima ab a. Iusto voluptatem modi voluptate nemo cum,
+                            ex veniam atque dolore.</p>
+                    </div><!--end quote-->
+                </div><!--quotes-->
+            </div><!--end col-->
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 remove-padding">
+                <div class="content-article"><!--contain post content-->
+                    <div class="post-top"><!--contain social links and data-->
+                        {% if page.date %}
+                        <div class="date"><!-- date-->
+                            <span class="ico-celendar"></span><!--ico calendar-->
+                            <span>
+                                {{ page.date | date_to_long_string }}
+                            </span><!--date-->
+                        </div><!--end date-->
+                        {% endif %}
+                    </div><!--end post top-->
+                    <div class="text-part large-letter"><!--overlay for right border-->
+                        {{ content }}
+                    </div><!--text-part-->
+                </div><!--content-article-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--container-->
+</section><!--article-page-->
+<!--script-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 
-    </div>
-</div>
-<!-- /container -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 {% include analytics.html %}
 
-<script src="http://code.jquery.com/jquery.js"></script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
+
 </html>

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Blog"
+title: "Uno Zwei Tros Quatter"
 menu: main
 ---
 
-## Welcome to Uno Zwei Tros Quatter
+## Switzerland
 
 This site is still heavily under development...
 
