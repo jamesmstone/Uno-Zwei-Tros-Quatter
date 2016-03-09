@@ -8,8 +8,8 @@
     <div class="slider-article"><!--help with position-->
         <div class="init-slider"><!--class for init-->
             <div><!--init slide-->
-                <div class="slide"><!--containe all info-->
-                    <img src="img/cover_image/1.jpg" alt="">
+                <div class="slide"><!--contain all info-->
+                    <img src="img/cover_image/1.jpg" alt="Background cover image">
 
                     <div class="img-about"><!--slide information-->
                         <span class="head">Vikings</span><!--category-->
@@ -35,7 +35,7 @@
 
                 <div class="author-overlay"><!--hold on author information-->
                     <span class="author">author</span><!--title-->
-                    <img src="img/face.jpg" alt=""><!--avatar-->
+                    <img src="img/face.jpg" alt="{{ author.given-names }} {{ author.surname }}"><!--avatar-->
                     <span class="name">
                         {% if author.orcid %}<a href="{{author.orcid}}">{{ author.given-names }} {{ author.surname }}</a>
                         {% else %}<a href="mailto:{{ author.email }}">{{ author.given-names }} {{ author.surname }}</a>
