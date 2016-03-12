@@ -1,10 +1,8 @@
 ---
-layout: page
-title: "Uno Zwei Tros Quatter"
+layout: index
+title: "Posts"
 menu: main
 ---
-
-## Switzerland
 
 This site is still heavily under development...
 
@@ -27,7 +25,7 @@ This site is still heavily under development...
 {% endif %}
 {% endfor %}
 {% if rowfinder != 0 %}
-</div>
+<!--</div>-->
 {% endif %}
     
 

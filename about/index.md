@@ -1,10 +1,10 @@
 ---
-id: 889
+id: 2
 title: About
+subtitle: About
 author: James Stone
 layout: page
 menu: main
-sharing_disabled: -1
 ---
 
-## About
+Content just begins...

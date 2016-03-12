@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-jvectormap-2.0.3.css">
 
 </head>
 
@@ -28,7 +29,7 @@
                     <img src="img/cover_image/1.jpg" alt="">
 
                     <div class="img-about"><!--slide information-->
-                        <span class="head">Vikings</span><!--category-->
+                        <span class="head">{{ page.tags }}</span><!--category-->
                         <span class="main-slogan">interesting facts</span><!--title-->
                         <span class="sub-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti debitis eum aperiam. Voluptatem</span>
                         <!--sub-title-->
@@ -50,14 +51,9 @@
                     <span class="name">Filatova Victoria</span><!--name author-->
                 </div><!--end author overlay-->
                 <div class="quotes hidden-xs hidden-sm"><!--contain quotes of author-->
-                    <div class="quote"><!--standart quote-->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id earum asperiores recusandae
-                            soluta laudantium ipsa cumque tempora minima ab a. Iusto voluptatem modi voluptate nemo cum,
-                            ex veniam atque dolore.</p>
-                    </div><!--quote-->
-                    <div class="quote-small"><!--quote with small font-size-->
-                        <p>Such ships are perfect for shallow coastal waters and rivers. Feature longshipov - is the
-                            absence of the stern, so that the ship.</p>
+                    <div class="quote-with-name"><!--quote with small font-size-->
+                        <span>Location</span>
+                        <div id="map"></div><!--quote-->
                     </div><!--end quote-small-->
                     <div class="quote-with-name"><!--quote with name,has title-->
                         <span>Lorem ipsum dolor sit amet</span><!--title-->
@@ -197,6 +193,33 @@
 </section><!--article-page-->
 <!--script-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/map/jquery-jvectormap-2.0.3.min.js"></script>
+<script type="text/javascript" src="/map/jquery-jvectormap-ch-mill.js"></script>
+<script>$('#map').vectorMap({
+    map: 'ch_mill',
+    hoverOpacity: 0.7,
+    hoverColor: false,
+    markerStyle: {
+        initial: {
+            fill: '#F8E23B',
+            stroke: '#383f47'
+        }
+    },
+    regionStyle: {
+        initial: {
+            fill: "#f2e8b6"
+        },
+        hover: {
+            fill: '#e8b84d'
+        }
+    },
+    backgroundColor: 'rgba(252, 251, 248, 0.75)',
+    markers: [
+        {latLng: [47.14, 9.52], name: 'Liechtenstein'},
+        {latLng: [47.14, 9.52], name: 'Liechtenstein'}
+    ]
+});
+</script>
 
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
