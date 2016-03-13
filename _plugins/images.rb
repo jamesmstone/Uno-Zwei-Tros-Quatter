@@ -5,7 +5,7 @@ require "json"
 def embedding_tweet(content)
   embedded_content = content
   content.scan(/(!\[(.+)\]\((.+)\))/).each do |image_mark, alt, url|
-  	embedded_content = embedded_content.gsub(/#{Regexp.quote(image_mark)}/, "{::nomarkdown}</div><div class='image-holder'><img src='#{url}' alt='#{alt}' /><div class='image-caption'><span class='ico-photo'></span><span>#{alt}</span></div></div><div class='text-part'>{:/nomarkdown}")
+  	embedded_content = embedded_content.gsub(/#{Regexp.quote(image_mark)}/, "{::nomarkdown}</p></div><div class='image-holder'><img src='#{url}' alt='#{alt}' /><div class='image-caption'><span class='ico-photo'></span><span>#{alt}</span></div></div><div class='text-part'><p>{:/nomarkdown}")
   end
   embedded_content
 end

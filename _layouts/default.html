@@ -56,6 +56,11 @@
 
                 {% endif %}
 
+                <div class="quotes hidden-xs hidden-sm">
+                {% if page.map %}
+
+                {% endif %}
+                </div>
             </div><!--end col-->
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 remove-padding">
                 <div class="content-article"><!--contain post content-->
@@ -87,31 +92,6 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="/map/jquery-jvectormap-2.0.3.min.js"></script>
 <script type="text/javascript" src="/map/jquery-jvectormap-ch-mill.js"></script>
-<script>$('#map').vectorMap({
-    map: 'ch_mill',
-    hoverOpacity: 0.7,
-    hoverColor: false,
-    markerStyle: {
-        initial: {
-            fill: '#F8E23B',
-            stroke: '#383f47'
-        }
-    },
-    regionStyle: {
-        initial: {
-            fill: "#f2e8b6"
-        },
-        hover: {
-            fill: '#e8b84d'
-        }
-    },
-    backgroundColor: 'rgba(252, 251, 248, 0.75)',
-    markers: [
-        {latLng: [47.14, 9.52], name: 'Liechtenstein'},
-        {latLng: [47.14, 9.52], name: 'Liechtenstein'}
-    ]
-});
-</script>
 
 {% endif %}
 
