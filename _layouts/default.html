@@ -83,12 +83,37 @@
 {% include footer.html %}
 <!--end foooter-->
 
-<!--script-->
-<!--
+{% if page.map %}
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/map/jquery-jvectormap-2.0.3.min.js"></script>
+<script type="text/javascript" src="/map/jquery-jvectormap-ch-mill.js"></script>
+<script>$('#map').vectorMap({
+    map: 'ch_mill',
+    hoverOpacity: 0.7,
+    hoverColor: false,
+    markerStyle: {
+        initial: {
+            fill: '#F8E23B',
+            stroke: '#383f47'
+        }
+    },
+    regionStyle: {
+        initial: {
+            fill: "#f2e8b6"
+        },
+        hover: {
+            fill: '#e8b84d'
+        }
+    },
+    backgroundColor: 'rgba(252, 251, 248, 0.75)',
+    markers: [
+        {latLng: [47.14, 9.52], name: 'Liechtenstein'},
+        {latLng: [47.14, 9.52], name: 'Liechtenstein'}
+    ]
+});
+</script>
 
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> TODO
--->
+{% endif %}
 
 {% include analytics.html %}
 
