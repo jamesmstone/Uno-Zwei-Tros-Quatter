@@ -70,6 +70,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 
                     {% for page in site.posts %}
+                    <a href="{{ page.url }}">
                     <div class="one-blog weav-1"><!--overlay class for different weav of one blog-->
                         <div class="image-holder"><!--info about image-->
                             <img src="{{page.image}}" alt="{{page.title}}"><!--image-->
@@ -83,7 +84,8 @@
                             <a href="{{ page.url }}">{{ page.title }}</a>
                             <p>{{ page.excerpt | markdownify |truncatewords: 25 | replace:'height="','max-height="'}}</p><!--text-->
                         </div><!--end content-blog-->
-                    </div><!--end one blog-->
+                    </div>
+                    </a><!--end one blog-->
 
                     {% endfor %}
 
