@@ -10,9 +10,7 @@ menu: main
 Hi I'm James, come with me as we *travel* through Switzerland on an extreme adventure
 ![James at Nitmiluk National Park](/img/NitmilukNationalPark.jpg)
 ![X-treme Swiss](/img/xtremeswiss.png)
-Come with us as we take an extreme approach to everything Swiss:
-* The Alps
-* The food - particularly the Swiss Chocolate
+Come with us as we take an extreme approach to everything Swiss; the Alps, the food - particularly the Swiss Chocolate and much more!
 
 ![Verbier ski resort](/img/skifield.png)
 
