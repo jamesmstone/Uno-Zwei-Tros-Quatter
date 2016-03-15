@@ -17,5 +17,4 @@ Come with us as we take an extreme approach to everything swiss:
 ![Verbier ski resort](/img/skifield.png)
 
 
-Finally, be warned we aren't going to be a typical *tourist*, we will be *travellers* because as [Pico Iyer](http://picoiyerjourneys.com/index.php/2000/03/why-we-travel/) puts it, *"The complaints of the tourists is what excites a traveller"*     
-
+Finally, be warned we aren't going to be a typical *tourist*, we will be *travellers* because as [Pico Iyer](http://picoiyerjourneys.com/index.php/2000/03/why-we-travel/) puts it, *"The complaints of the tourists is what excites a traveller"*
