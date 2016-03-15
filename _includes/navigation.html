@@ -1,9 +1,21 @@
-<nav>
-    {% for page in site.pages %}
-    {% if page.menu == 'main' %}
-    <a href="{{ page.url }}">
-        {{ page.title }}
-    </a>
-    {% endif %}
-    {% endfor %}
+<nav class="page-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="navigation"><!--overlay for position-->
+                    <ul class="list"><!--nav-->
+                        {% for page in site.pages %}
+                        {% if page.menu == 'main' %}
+                        <li><!--change weave of link-->
+                            <a href="{{ page.url }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div><!--end navigation-->
+            </div><!--end col-->
+        </div>
+    </div>
 </nav>
