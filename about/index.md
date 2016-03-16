@@ -7,8 +7,9 @@ layout: page
 menu: main
 ---
 
-Hi I'm James, and I'm an Australian student, living in Melbourne, who is looking for an x-treme Swiss Adventure.
+Hi I'm James, I'm an Australian student, living in Melbourne, who is looking for an *x-treme* Swiss Adventure.
 ![X-treme Swiss](/img/xtremeswiss.png)
+Extreme not in the normal sense of the word. I'm after an extreme cultural experience, an extreme discovery and also an extreme adrenaline rush.  
 Below is a photo of me on one of my past travels through the Top End of Australia.
 ![James at Nitmiluk National Park](/img/NitmilukNationalPark.jpg)
 
