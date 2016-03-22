@@ -14,4 +14,5 @@ Harald work wasn't appreciated by, including the Swiss authorities and was appre
 Before his court case he fled to Germany where he continued his work. He was eventually and reluctantly extradited by Germany after he tried to flee to Denmark and served his jail sentence. During this time a partition was set up 
 
 Now days, his work is regarded by many as great art in both Germany and Switzerland.
-So much so that when the building where Undine (seen above) was painted upon was renovated. The work was considered sufficiently valuable to cover it and protect int thoroughout the works. 
+The authorities have restored many of his surviving works. COnverting ti from an unofficial to and official tourist attraction.
+So much so that when the building (University of Zurich) where Undine (seen above) was painted upon was renovated. The work was considered sufficiently valuable to cover it and protect int throughout the works. 
