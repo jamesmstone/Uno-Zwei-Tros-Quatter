@@ -16,14 +16,12 @@ Not only is Switzerland an International nation with four diverse languages,
   * CERN - European Organisation for Nuclear Research
   * WHO - World Health Organisation 
   * GAIN - Global alliance for improved Nutrition
-  But despite switzerland But yet with the syrian refugee crisis that is currently underway is 
+
+But despite Switzerland being such an hosting many global organisations, the Swiss government seem reluctant to grow their diversity and help host refugees.  
    
-  Swiss asylum law has since the 1990s required asylum seekers to contribute to the costs of hosting them in the wealthy Alpine country:
+Since the 1990s Swiss Asylum Law has required Asylum Seekers to contribute to the costs of hosting them. By law the country is permitted to confiscate assets from those seeking asylum 1,000 Swiss francs (~ US$995 or ~ €913 euros).
    
-  The country is permitted to confiscate from people seeking asylum in the country amounts over 1,000 Swiss francs (US$995, €913 euros), Celine Kohlprath, a spokeswoman for Swiss migration authorities, told the AFP news agency.
-   
- 
-For some, asylum seekers are a drain on the economy and a threat to social stability; for others, helping them is a cornerstone of Switzerland’s humanitarian tradition. 
+As [*SwissInfo.ch*](http://www.swissinfo.ch/) puts it *"For some, Asylum Seekers are a drain on the economy and a threat to social stability; For others, helping them is a cornerstone of Switzerland’s humanitarian tradition" * 
  					
 <!--
 <div class="quote-with-name">
