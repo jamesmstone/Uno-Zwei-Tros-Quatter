@@ -4,7 +4,7 @@ title: Hypocritical  Swiss
 author: James Stone
 layout: post
 map: true
-image: 
+image: /img/swissrefugee.jpg
 ---
 
 Not only is Switzerland an International nation with four diverse languages, 

@@ -4,7 +4,7 @@ title: Essentialism
 author: James Stone
 layout: post
 map: true
-image: 
+image: /img/everythingswiss.jpg
 ---
 
 As I have talked about [earlier]({% post_url 2016-03-08-symbols %}), when you ask people to think of Switzerland many items can come to mind. I have found it interesting to better investigate the common ideas relating to Switzerland.
