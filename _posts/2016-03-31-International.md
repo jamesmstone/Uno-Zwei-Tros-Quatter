@@ -21,7 +21,11 @@ But despite Switzerland being such an hosting many global organisations, the Swi
    
 Since the 1990s Swiss Asylum Law has required Asylum Seekers to contribute to the costs of hosting them. By law the country is permitted to confiscate assets from those seeking asylum 1,000 Swiss francs (~ US$995 or ~ €913 euros).
    
-As [*SwissInfo.ch*](http://www.swissinfo.ch/) puts it *"For some, Asylum Seekers are a drain on the economy and a threat to social stability; For others, helping them is a cornerstone of Switzerland’s humanitarian tradition" * 
+As [*SwissInfo.ch*](http://www.swissinfo.ch/) puts it _"For some, Asylum Seekers are a drain on the economy and a threat to social stability; For others, helping them is a cornerstone of Switzerland’s humanitarian tradition"_ 
+
+Compared to other nations in Europe Switzerland is in a position where it can help  
+
+Recently the racism commission has been highly critical of the Swiss Government and the opposition in the lead up to the  federal election.  What's particularly interesting is how the Swiss feel. News media reports carried the results of a survey showed that just under half think the country should close its borders, at least temporarily, but yet most Swiss still feel it’s important to continue helping some of the hundreds of thousands of refugees trying to reach Western Europe through the Mediterranean. –   ([Source](http://www.swissinfo.ch/directdemocracy/hate-speech_racism-commission-sees-risks-ahead-of-federal-elections/41633822)).
  					
 <!--
 <div class="quote-with-name">

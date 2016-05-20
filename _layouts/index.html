@@ -35,7 +35,8 @@
                     <div class="content-blog"><!--text of blog-->
                         <!--<span class="category">transport</span>&lt;!&ndash;category&ndash;&gt; todo-->
                         <a href="{{ page.url }}">{{ page.title }}</a>
-                        <p>{{ page.excerpt | markdownify |truncatewords: 25 | replace:'height="','max-height="'}}</p><!--text-->
+                        <p>{{ page.content | markdownify | strip_html | truncatewords: 20}}</p><!--text-->
+                        <!--<p>{{ page.content | markdownify | strip_html | truncatewords: 50 }}}</p>&lt;!&ndash;text&ndash;&gt;-->
                     </div><!--end content-blog-->
                 </div>
                 </a><!--end one blog-->
