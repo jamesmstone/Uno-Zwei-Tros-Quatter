@@ -6,7 +6,7 @@ layout: post
 map: true
 image: 
 ---
-
+<!--
 This question responds to ideas from the Week 10 lecture and reading. You should prepare your post before your Week 10 tutorial. 
 
 # How might visiting your country specialisation challenge, confuse, or even shock you?
@@ -27,6 +27,7 @@ In your blogpost, you will need to:
 Explain why it is a difference
 Reflect on how the experience of difference might make you feel or react
 Consider how (or if) you might minimise ‘culture shock’ or ‘culture confusion’
+-->
 <!--
 <div class="quote-with-name">
     <span>Matterhorn Location</span>
