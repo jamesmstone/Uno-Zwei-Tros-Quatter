@@ -1,13 +1,14 @@
 ---
 id: 1
-title: Arrival in an Utopia -  Shock Confuse
+title: Arrival in Utopia
 author: James Stone
 layout: post
 map: true
 image: /img/train.jpg
 ---
-Arrival in utopia
-As pointed out on [expatarrivals.com](http://expatarrivals.com), Switzerland can be a stark contrast to some of it's neigbours. Even before you arrive in a major town you begin to get a sense of how orderly and clean everything is. They given the example of a train trip from from Milan to the Italian canton, Ticino. A trip that start off passing through some what coarse Italian landscape passing town after town with partially neglected stations with sides that are in need of much love, or even jut a fresh coat of paint. Before you reach the Swiss border, where you are immediately meet with well maintained, much loved clean stations.
+As pointed out on [expatarrivals.com](http://expatarrivals.com), Switzerland can be a stark contrast to some of it's neighbours. Even before you arrive in a major town you begin to get a sense of how orderly and clean everything is. They give the example of a train trip from from Milan to the Italian canton, Ticino. A trip that start off passing through some what coarse Italian landscape passing town after town with partially neglected stations with sides that are in need of much love, or even jut a fresh coat of paint. Before you reach the Swiss border, where you are immediately met with well maintained, well looked after, clean stations.
+![Täsch station, Switzerland](/img/trainstation.jpg)
+
 
 
 <!--
