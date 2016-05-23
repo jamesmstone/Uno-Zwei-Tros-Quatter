@@ -21,28 +21,46 @@
 <section class="blog-page">
     <div class="container">
         <div class="blogs">
-            <div class="row">
+
+            {% assign loopindex = 0 %}
             {% for page in site.posts %}
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <a href="{{ page.url }}"><div class="one-blog weav-1"><!--overlay class for different weav of one blog-->
-                    <div class="image-holder"><!--info about image-->
-                        <img src="{{page.image}}" alt="{{page.title}}"><!--image-->
-                        <div class="date"><!--data overlay-->
-                            <span class="ico-celendar"></span><!--ico-->
-                            <span>{{ page.date | date_to_long_string }}</span><!--data-->
-                        </div><!--end data-->
-                    </div><!--holder-->
-                    <div class="content-blog"><!--text of blog-->
-                        <!--<span class="category">transport</span>&lt;!&ndash;category&ndash;&gt; todo-->
-                        <a href="{{ page.url }}">{{ page.title }}</a>
-                        <p>{{ page.content | markdownify | strip_html | truncatewords: 20}}</p><!--text-->
-                        <!--<p>{{ page.content | markdownify | strip_html | truncatewords: 50 }}}</p>&lt;!&ndash;text&ndash;&gt;-->
-                    </div><!--end content-blog-->
+            {% if page.type != 'hidden' %}
+            {% assign loopindex = loopindex | plus: 1 %}
+            {% assign rowfinder = loopindex | modulo: 4 %}
+            {% if rowfinder == 1 %}
+            <div class="row">
+            {% endif %}
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <a href="{{ page.url }}"><div class="one-blog weav-1"><!--overlay class for different weav of one blog-->
+                        <div class="image-holder"><!--info about image-->
+                            <img src="{{page.image}}" alt="{{page.title}}"><!--image-->
+                            <div class="date"><!--data overlay-->
+                                <span class="ico-celendar"></span><!--ico-->
+                                <span>{{ page.date | date_to_long_string }}</span><!--data-->
+                            </div><!--end data-->
+                        </div><!--holder-->
+                        <div class="content-blog"><!--text of blog-->
+                            <!--<span class="category">transport</span>&lt;!&ndash;category&ndash;&gt; todo-->
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                            <p>{{ page.content | markdownify | strip_html | truncatewords: 20}}</p><!--text-->
+                            <!--<p>{{ page.content | markdownify | strip_html | truncatewords: 50 }}}</p>&lt;!&ndash;text&ndash;&gt;-->
+                        </div><!--end content-blog-->
+                    </div>
+                    </a><!--end one blog-->
                 </div>
-                </a><!--end one blog-->
+
+
+            {% if rowfinder == 0 %}
             </div>
+            {% endif %}
+            {% endif %}
             {% endfor %}
-            </div><!--end row-->
+            {% if rowfinder != 0 %}
+            </div>
+            {% endif %}
+
         </div><!--end blogs-->
     </div><!--end container-->
 </section><!--blog-page-->
