@@ -20,4 +20,4 @@ Come with me as I take an extreme approach to everything Swiss; the Alps, the cu
 ![Verbier ski resort](/img/skifield.png)
 
 Finally, I agree with [Pico Iyer](http://picoiyerjourneys.com/index.php/2000/03/why-we-travel/) when he warns against being a typical *tourist*, we will instead be *travellers* because as he puts it, *"The complaints of the tourists is what excites a traveller"*.
-However, the distinction between a traveler and a tourist is harder to define. To me the distinction is drawn based on how *"smart"* they travel. Are they culturally aware? Do they have an appreciation of the history of the place? 
+However, the distinction between a traveller and a tourist is harder to define. To me the distinction is drawn based on how *"smart"* they travel. Are they culturally aware? Do they have an appreciation for the different layers of the place? 
