@@ -1,13 +1,13 @@
 ---
 id: 3
-title: Harald Naegeli +  the story of Swiss Street Art
+title: Assess - Harald Naegeli +  the story of Swiss Street Art
 author: James Stone
 layout: post
 map: true
 image: /img/undine.jpg
 ---
 
-Like in lots of places Swiss street art, was not seen in the same light as it is today.
+Like in lots of places Swiss Street Art, was not seen in the same light as it is today.
 One of the *fathers* of Swiss street art would have to be [Harald Naegeli](http://www.graffiti.org/zurich/naegeli.html). Harald, started painting *"wire frame"* works throughout the city of Zurich, which despite being simple drawings, stood out from the bleak concrete walls earning him the name *"Sprayer of Zurich"*
 ![Harald Naegeli's Undine (1978)](/img/undine.jpg)
 Harald work wasn't appreciated by many, including the Swiss authorities and was apprehended in June '79, after he returned to one of his works after leaving his glasses there.

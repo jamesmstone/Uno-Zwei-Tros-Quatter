@@ -7,10 +7,10 @@ layout: page
 menu: main
 ---
 
-Hi I'm James, I'm an Australian student, living in Melbourne, who is looking for an *x-treme* Swiss Adventure.
-I got my first taste for the snow when I was 6 years old and have been hooked travelling and skiing ever since. 
+Hi my name is James, I'm a 19 year old Australian student, living in Melbourne, who is looking for an *x-treme* Swiss Adventure.
+I got my first taste for the snow when I was 6 years old and have been hooked travelling and skiing ever since. I have been lucky enough to ski in both Australia and New Zealand.
 ![X-treme Swiss](/img/xtremeswiss.png)
-Extreme not in the normal sense of the word. I'm after an extreme cultural experience, an extreme discovery and also an extreme adrenaline rush.
+Extreme not in the normal sense of the word. I'm after an extreme cultural experience, an extreme discovery and also an extreme adrenaline rush. This is why I have chosen to take and extreme angle with my blog.
 What draws me to travel the most is the sense of adventure you get exploring and trying new things. 
 Below is a photo of me on one of my past travels through the Top End of Australia.
 ![Me at Nitmiluk National Park, NT Aus.](/img/NitmilukNationalPark.jpg)
