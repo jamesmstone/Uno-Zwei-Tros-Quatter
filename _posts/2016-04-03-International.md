@@ -7,8 +7,8 @@ map: true
 image: /img/swissrefugee.jpg
 ---
 ### International Engagement 
-*"Unus pro omnibus, omnes pro uno"* meaning *"One for all, all for one"* may be Switzerland's moto, but they don't live up to it. Not only is Switzerland an International nation with four diverse languages, Switzerland is host to numerous international headquarters such as: CERN - European Organisation for Nuclear Research, WHO - World Health Organisation or GAIN - Global alliance for improved Nutrition.
-Despite Switzerland hosting many global organisations, the Swiss government seems reluctant to grow their diversity and help host refugees.  
+Switzerland is one of the wealthiest countries, with a high quality of life, it has four official languages (French, German, Italian, and Romansh), is prominent a member of the United Nations and has a motto *"Unus pro omnibus, omnes pro uno"* or in English *"One for all, all for one"*. Not only is Switzerland an International nation with four diverse languages, Switzerland is host to numerous international headquarters such as: CERN - European Organisation for Nuclear Research, WHO - World Health Organisation or GAIN - Global alliance for improved Nutrition.
+Despite all this, the Swiss government seems reluctant to grow their diversity and help host refugees.  
 Since the 1990's Swiss Asylum Law has required Asylum Seekers to contribute to the costs of hosting them. By law the country is permitted to confiscate assets from those seeking asylum. They are allowed to confiscate up to 1,000 Swiss francs (~ US$995 or ~ €913 euros).
    
 ![Language groups of Switzerland](/img/languages.gif)
