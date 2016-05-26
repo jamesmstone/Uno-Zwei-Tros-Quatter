@@ -6,7 +6,6 @@ layout: post
 map: true
 image: /img/undine.jpg
 ---
-
 Like in lots of places Swiss Street Art, was not seen in the same light as it is today.
 One of the *fathers* of Swiss street art would have to be [Harald Naegeli](http://www.graffiti.org/zurich/naegeli.html). Harald, started painting *"wire frame"* works throughout the city of Zurich, which despite being simple drawings, stood out from the bleak concrete walls earning him the name *"Sprayer of Zurich"*
 ![Harald Naegeli's Undine (1978)](/img/undine.jpg)
