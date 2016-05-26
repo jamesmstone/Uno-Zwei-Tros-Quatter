@@ -15,11 +15,9 @@ The European headquarters of the United Nations Environment Programme (UNEP) is 
 My specific disciplinary skills are in software development, these skills are extremely valuable to an organisation that collects processes and interprets such huge volumes of data.
 There are many areas of focus within UNEP, including climate change, disasters and conflicts, eco-system management and environmental governance. An example of where these skills are already being used is "[The Madingley Model](http://www.madingleymodel.org/)", which is a partnership between UNEP and Microsoft to develop a general ecosystem model, a model that simulates all life on Earth. [www.madingleymodel.org](http://www.madingleymodel.org/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YDKrXmcGoSo" frameborder="0" allowfullscreen></iframe>
-The Madingly Model is particularly important as humans put more pressure on Earth's ecosystems.
+The Madingly Model is particularly important as humans put more pressure on Earth's ecosystems, as we need a way of determining what our impact will be.
  
 I became aware of UNEP's work in Switzerland, though Microsoft's involvement. Microsoft also has a research center at the University of Melbourne, where I'm studying. 
-
-
 
 
 <!--
